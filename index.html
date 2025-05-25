@@ -6,58 +6,24 @@
   <title>EAU SUBLIME</title>
   <link href="https://fonts.googleapis.com/css2?family=Glacial+Indifference&family=Segoe+UI&display=swap" rel="stylesheet">
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
     body {
       margin: 0;
       font-family: 'Glacial Indifference', 'Segoe UI', sans-serif;
-      background-color: #fdfaf7;
+      background-color: #f9f6f1;
       color: #111;
     }
     header {
       background-color: #000;
       color: #fff;
-      padding: 1rem;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #fff;
-      font-weight: bold;
-    }
-    .hero {
+      padding: 2rem;
       text-align: center;
-      padding: 4rem 2rem;
-      background: #000;
-      color: #fff;
     }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.2rem;
-    }
-    .hero a {
-      display: inline-block;
-      margin-top: 1.5rem;
-      padding: 0.75rem 1.5rem;
-      background: #b38e5d;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
+    h1 {
+      font-size: 2rem;
+      margin-top: 1rem;
     }
     section {
       padding: 2rem;
-      max-width: 1200px;
-      margin: auto;
     }
     .catalogo {
       display: flex;
@@ -86,220 +52,43 @@
       color: #b38e5d;
       font-weight: bold;
     }
-    .mayoristas, .sobre, .contacto {
-      background-color: #f1eee9;
-      border-radius: 10px;
-      padding: 2rem;
-      margin: 2rem auto;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #000;
-      color: #fff;
-    }
   </style>
 </head>
 <body>
   <header>
-    <div><img src="img/logo.png" alt="Logo Eau Sublime" style="height: 50px;"></div>
-    <nav>
-      <a href="#catalogo">Catálogo</a>
-      <a href="#mayoristas">Mayoristas</a>
-      <a href="#sobre">Sobre mí</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
-
-  <section class="hero">
     <h1>Eau Sublime – Encontrá tu fragancia ideal</h1>
-    <p>Perfumes árabes con esencia propia. Elegí el tuyo.</p>
-    <a href="#catalogo">Ver catálogo</a>
-  </section>
-
-  <section id="catalogo">
-    <h2>Catálogo de Perfumes</h2>
-    <div class="catalogo">
-      <div class="producto">
-        <img src="img/khamrah_qahwa.png" alt="Lattafa Khamrah Qahwa">
-        <h3>Lattafa Khamrah Qahwa</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Khamrah%20Qahwa">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/khamrah.png" alt="Lattafa Khamrah">
-        <h3>Lattafa Khamrah</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Khamrah">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/for_glory.png" alt="Lattafa Bade'e Al Oud For Glory">
-        <h3>Bade'e Al Oud For Glory</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Badee%20Al%20Oud%20For%20Glory">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/honor_glory.png" alt="Lattafa Badee Honor & Glory">
-        <h3>Badee Honor & Glory</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Badee%20Honor%20%26%20Glory">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/noble_blush.png" alt="Lattafa Bade'e Al Oud Noble Blush">
-        <h3>Bade'e Al Oud Noble Blush</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Badee%20Al%20Oud%20Noble%20Blush">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/amethyst.png" alt="Lattafa Badee Al Oud Amethyst">
-        <h3>Badee Al Oud Amethyst</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Badee%20Al%20Oud%20Amethyst">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/sublime.png" alt="Lattafa Badee Al Oud Sublime">
-        <h3>Badee Al Oud Sublime</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Badee%20Al%20Oud%20Sublime">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-7.png" alt="Lattafa Mayar">
-        <h3>Lattafa Mayar</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Mayar">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-23.png" alt="Lattafa Hayaati">
-        <h3>Lattafa Hayaati</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Hayaati">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-66.png" alt="Lattafa Fakhar Gold">
-        <h3>Lattafa Fakhar Gold</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Fakhar%20Gold">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-95.png" alt="Lattafa Asad Zanzibar">
-        <h3>Lattafa Asad Zanzibar</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Asad%20Zanzibar">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/2-115.png" alt="Lattafa Asad">
-        <h3>Lattafa Asad</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Asad">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/616YR2PeigL._SL1500_.png" alt="Club de Nuit Intense">
-        <h3>Club de Nuit Intense</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Club%20de%20Nuit%20Intense">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/710xU5+9SsL.png" alt="Afnan 9PM">
-        <h3>Afnan 9PM</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Afnan%209PM">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1228b.png" alt="Amber Oud Black Edition">
-        <h3>Amber Oud Black Edition</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Amber%20Oud%20Black%20Edition">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/145090-3.png" alt="Odyssey Mandarin Sky">
-        <h3>Odyssey Mandarin Sky</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Odyssey%20Mandarin%20Sky">Consultar por WhatsApp</a>
-      </div>
+  </header>
+  <section class="catalogo">
     <div class="producto">
-        <img src="img/1.png" alt="Lattafa Hayaati Florence">
-        <h3>Lattafa Hayaati Florence</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Hayaati%20Florence">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-11.png" alt="Lattafa Hayaati Al Maleky">
-        <h3>Lattafa Hayaati Al Maleky</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Hayaati%20Al%20Maleky">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-22.png" alt="Lattafa Mohra">
-        <h3>Lattafa Mohra</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Mohra">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/OIP.png" alt="Club de Nuit Woman">
-        <h3>Club de Nuit Woman</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Club%20de%20Nuit%20Woman">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-78.png" alt="Lattafa Yara">
-        <h3>Lattafa Yara</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Yara">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/1-114.png" alt="Lattafa Yara Tous">
-        <h3>Lattafa Yara Tous</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Yara%20Tous">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/britney-spears-perfume-fantasy-100ml-eau-de-toilette-1500505443.png" alt="Britney Spears Fantasy">
-        <h3>Britney Spears Fantasy</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Britney%20Spears%20Fantasy">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/OIP (2).png" alt="Britney Spears Midnight Fantasy">
-        <h3>Britney Spears Midnight Fantasy</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Britney%20Spears%20Midnight%20Fantasy">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/parfuem-yara-candy-eau-de-parfum-spray-100ml.png" alt="Lattafa Yara Candy">
-        <h3>Lattafa Yara Candy</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Yara%20Candy">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/Perfume-Mayar-Cherry-Intense-Perfumes-Arabes.png" alt="Lattafa Mayar Cherry Intense">
-        <h3>Lattafa Mayar Cherry Intense</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Mayar%20Cherry%20Intense">Consultar por WhatsApp</a>
-      </div>
+      <img src="img/asad.png" alt="Lattafa Asad">
+      <h3>Lattafa Asad</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Lattafa%20Asad">Consultar por WhatsApp</a>
+    </div>
     <div class="producto">
-        <img src="img/lattafa-fakhar-rose.png" alt="Lattafa Fakhar Rose">
-        <h3>Lattafa Fakhar Rose</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Fakhar%20Rose">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/lattafa-fakhar-black.png" alt="Lattafa Fakhar Black">
-        <h3>Lattafa Fakhar Black</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Fakhar%20Black">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/lattafa-yara-moi.png" alt="Lattafa Yara Moi">
-        <h3>Lattafa Yara Moi</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Yara%20Moi">Consultar por WhatsApp</a>
-      </div>
-      <div class="producto">
-        <img src="img/lattafa-asad-bourbon.png" alt="Lattafa Asad Bourbon">
-        <h3>Lattafa Asad Bourbon</h3>
-        <a href="https://wa.me/541159916881?text=Hola,%20quiero%20consultar%20por%20Lattafa%20Asad%20Bourbon">Consultar por WhatsApp</a>
-      </div>
+      <img src="img/odyssey.png" alt="Lattafa Odyssey Mandarin Sky">
+      <h3>Lattafa Odyssey Mandarin Sky</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Odyssey%20Mandarin%20Sky">Consultar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="img/asad_bourbon.png" alt="Lattafa Asad Bourbon">
+      <h3>Lattafa Asad Bourbon</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Lattafa%20Asad%20Bourbon">Consultar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="img/noble_blush.png" alt="Bade'e Al Oud Noble Blush">
+      <h3>Bade'e Al Oud Noble Blush</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Badee%20Al%20Oud%20Noble%20Blush">Consultar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="img/club_woman.png" alt="Club de Nuit Woman">
+      <h3>Club de Nuit Woman</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Club%20de%20Nuit%20Woman">Consultar por WhatsApp</a>
+    </div>
+    <div class="producto">
+      <img src="img/yara_candy.png" alt="Lattafa Yara Candy">
+      <h3>Lattafa Yara Candy</h3>
+      <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20Lattafa%20Yara%20Candy">Consultar por WhatsApp</a>
     </div>
   </section>
-
-  <section class="mayoristas" id="mayoristas">
-    <h2>Mayoristas y Revendedores</h2>
-    <p>✔ Mínimo de compra: 7 unidades (pueden ser surtidas).</p>
-    <p>✔ A partir de 12 unidades: descuento aplicado sobre el total.</p>
-    <p>✔ Envíos a sucursal Andreani, retiro por Villa Devoto o consultar por CABA.</p>
-    <p>✔ Ofrecemos decants (5 ml) a $5000 para que tus clientes prueben los perfumes.</p>
-    <p>✔ Pedidos por stock o por pedido personalizado (demora de 7 a 10 días).</p>
-    <p>✔ Pagos por transferencia o efectivo.</p>
-    <a href="https://wa.me/541159916881?text=Hola%2C%20quiero%20consultar%20por%20ventas%20mayoristas">Pedir cotización por WhatsApp</a>
-  </section>
-
-  <section class="sobre" id="sobre">
-    <h2>Sobre EAU SUBLIME</h2>
-    <p>EAU SUBLIME nace de la pasión por los perfumes árabes. Cada fragancia que ofrecemos fue elegida pensando en transmitir carácter, presencia y elegancia. Nuestro propósito es ayudarte a encontrar tu aroma ideal, ese que te identifica y te acompaña.</p>
-    <p>Queremos que tu experiencia sea única, por eso trabajamos con atención personalizada, opciones de muestra (decants), y asesoramiento real.</p>
-    <p>Creemos que el perfume no es solo aroma, es identidad.</p>
-  </section>
-
-  <section class="contacto" id="contacto">
-    <h2>Contacto</h2>
-    <p>📲 <a href="https://wa.me/541159916881">Escribinos por WhatsApp</a></p>
-    <p>📸 <a href="https://www.instagram.com/eausublime_" target="_blank">Seguinos en Instagram</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Eau Sublime. Todos los derechos reservados.</p>
-  </footer>
 </body>
 </html>
-
